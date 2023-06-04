@@ -1,0 +1,170 @@
+#title {
+  background-image: url(../images/St_\ Louis\ Wedding\ Photographer.jpeg);
+}
+
+h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+h2 {
+  font-family: "Montserrat-Bold";
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+p {
+  color: #8f8f8f
+}
+
+body {
+  font-family: Montserrat;
+}
+
+.Container-fluid {
+  padding: 3% 10%;
+}
+
+/* Heading section*/
+
+.heading {
+    color: #ffff;
+    font-family: Montserrat-Black;
+    line-height: 1.5;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+/* navigation bar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: Montserrat;
+  font-size: 1.2rem
+  font-weight: bold;
+}
+
+/* download button */
+.download-button {
+  margin: 5% 3% 5% 0
+}
+
+/* title image */
+.title-image {
+  width: 100%;
+  transform: rotate(0deg);
+}
+
+@media (max-width:517px) {
+  .title-image {
+    position: static;
+    transform: rotate(0deg);
+  }
+
+  .button {
+    text-align: center;
+  }
+}
+
+/* features section */
+#features {
+  padding: 10% 7%;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%
+}
+
+.icon {
+  color: #4D5735;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #4D5735;
+}
+
+/* testimonial section */
+#testimonials {
+  text-align: center;
+  background-color: #211b07;
+  color: #ffff;
+}
+
+.testimonial-image {
+  width: 20%;
+  border-color: #ffff;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 10% 30%;
+}
+
+/* press section */
+#press {
+  background-color: #0d0a02;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing section */
+.card-header {
+  background-color: #ffff;
+}
+
+#pricing {
+  padding-top: 4%;
+  font-family: "Montserrat-Black";
+}
+
+/*-- Call to Action */
+#cta {
+  background-color: #211b07;
+  padding: 6% 10%;
+  text-align: center;
+}
+
+.cta-text {
+  color: #ffff;
+  font-family: Montserrat-Black;
+  line-height: 1.5;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+#footer {
+  color: #ffff;
+  font-family: Montserrat Bold;
+  font-weight: bold;
+  padding: 2%;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.footer-link {
+  background-color: #ffff;
+  color: #070707;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
